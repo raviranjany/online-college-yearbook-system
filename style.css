@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+header{
+    background: white url("img/image5.jpeg") no-repeat scroll bottom;
+    overflow: hidden;
+    color: whitesmoke;
+}
+header.main-header img{
+    width: 5.5%;
+    position: absolute;
+    /*float: left;*/
+    border: 0;
+    vertical-align: middle;
+    /*left: 450px;*/
+    /*margin-top: 4px;*/
+
+}
+nav{
+    /*background: white url("img/image5.jpeg") no-repeat scroll bottom;*/
+    background-color: #00aeef;
+    overflow: hidden;
+    box-shadow: 0 0 20px white;
+    /*border: 1px solid #636;*/
+    font-family: Georgia,sans-serif;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 600px;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 13px 12px;
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 3px;
+
+}
+nav ul li a:hover{
+    background-color:white;
+    box-shadow: 0 0 15px white;
+    color: black;
+    font-size: 18px;
+    /*border: 1px solid #636;*/
+}
+nav ul li a.active{
+    background-color:white;
+    box-shadow: 0 0 15px white;
+    color: black;
+    font-size: 18px;
+    /*border: 1px solid #636;*/
+}
+.dropdown_list{
+    background: white url("img/image5.jpeg") no-repeat scroll bottom;
+    position: absolute; /* to stick with parent */
+    display: none; /* to hide the list */
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+  }
+.dropdown_list a{
+    display: block;
+
+}
+.dropdown:hover .dropdown_list{
+    display: block; /* to display the list */
+}
+.main-footer{
+    background: white url("img/image5.jpeg") no-repeat scroll bottom;
+    overflow: hidden;
+    box-shadow: 0 0 20px #636;
+    color: white;
+    text-align: center;
+}
+.main-footer a{
+    color: orange;
+    text-decoration: none;
+}
+.form-div{
+    width: 300px;
+    text-align: center;
+    margin: 90px auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 1px 20px;
+    box-shadow: 0 0 15px #00aeef;
+}
+.form-div img{
+    width: 100px;
+    margin-top: -50px;
+}
+.form-div h2{
+    color: white;
+    margin-top: 10px;
+}
+input[type='text'],
+input[type='password'],
+input[type='email'],
+select{
+    text-align: center;
+    font-size: 18px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    background-color: black;
+    border-bottom: 3px solid teal;
+    width: 200px;
+    margin: 3px;
+}
+::placeholder{
+    color: lightgrey;
+}
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus,
+select:focus{
+    border-bottom: 3px solid #00aeef;
+}
+input[type='submit']{
+    background-color: teal;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 35px;
+    margin: 10px 0 8px 0;
+    border-radius: 50px;
+    outline: none;
+}
+input[type='submit']:hover{
+    box-shadow: 0 0 15px white;
+    background-color: #00aeef;
+}
+.reg{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    box-shadow: 0 0 15px white;
+    /*background-color: #00aeef;*/
+
+}
+.reg:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    box-shadow: 0 0 15px white;
+    /*background-color: #00aeef;*/
+
+}
+/*Tables*/
+td, th,tr {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 65%;
+    overflow-x:auto;
+    color: white;
+    margin: 0;
+}
+
+th {
+    height: 50px;
+    background-color: #445511;
+    color: white;
+}
+tr{
+    font-family: Andalus,sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    font-family: Andalus,sans-serif;
+    color: white;
+    margin-left: 80px;
+}
+img.bi{
+    border: 1px solid white;
+    box-shadow: 0 0 20px white;
+    border-radius: 20px;
+    padding: 9px;
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: Andalus,sans-serif;
+}
+
+figcaption{
+    color: white;
+}
+
+.img2{
+    width: 10%;
+    height: 10%;
+    border: 1px solid white;
+    float: left;
+    margin-right: 2cm;
+}
